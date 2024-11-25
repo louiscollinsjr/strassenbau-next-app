@@ -35,7 +35,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-gray-50 border-t">
           <div className="mx-auto px-4 py-8" style={{ maxWidth: '980px' }}>
-            <div className="text-center text-gray-600">
+            <div className="text-left text-gray-600">
               &copy; {new Date().getFullYear()} Strassen und Brückenbau. All rights reserved.
             </div>
           </div>
