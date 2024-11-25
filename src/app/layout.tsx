@@ -9,9 +9,13 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Strassen und Brückensau | Modern Construction Excellence",
+  title: "Strassen und Brückenbau | Modern Construction Excellence",
   description: "Leading construction company specializing in infrastructure projects across Romania. Expert road and bridge construction with German engineering excellence.",
   keywords: "construction, infrastructure, roads, bridges, Romania, German engineering",
+  other: {
+    'google': 'notranslate',
+    'content-language': 'en'
+  }
 };
 
 export default function RootLayout({
