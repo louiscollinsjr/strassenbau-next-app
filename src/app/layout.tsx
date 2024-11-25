@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import Navigation from "./components/Navigation";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -27,19 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased bg-white text-sm`}>
-        <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50">
-          <Navigation />
-        </header>
+        <Header />
         <main className="pt-16">
           {children}
         </main>
-        <footer className="bg-gray-50 border-t">
-          <div className="mx-auto px-4 py-8" style={{ maxWidth: '980px' }}>
-            <div className="text-left text-gray-600">
-              &copy; {new Date().getFullYear()} Strassen und Brückenbau. All rights reserved.
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
