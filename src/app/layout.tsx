@@ -31,10 +31,10 @@ export default function RootLayout({
             <div className="flex justify-between items-center">
               <div className="font-medium text-lg">Strassen und Brückenbau</div>
               <div className="hidden md:flex space-x-8">
-                <a href="/" className="hover:text-gray-600">Home</a>
                 <a href="/projects" className="hover:text-gray-600">Projects</a>
-                <a href="/about" className="hover:text-gray-600">About</a>
-                <a href="/contact" className="hover:text-gray-600">Contact</a>
+                <a href="/team" className="hover:text-gray-600">Our Team</a>
+                <a href="/sustainability" className="hover:text-gray-600">Sustainability</a>
+                <a href="/news" className="hover:text-gray-600">News</a>
               </div>
             </div>
           </nav>
