@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const roboto = Roboto({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -21,11 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} antialiased bg-white`}>
-        <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b">
-          <nav className="container mx-auto px-4 py-4">
+      <body className={`${roboto.className} antialiased bg-white text-sm`}>
+        <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50">
+          <nav className="mx-auto px-4 py-4" style={{ maxWidth: '980px' }}>
             <div className="flex justify-between items-center">
-              <div className="text-xl font-bold">Strassen und Brückensau</div>
+              <div className="font-medium text-lg">Strassen und Brückenbau</div>
               <div className="hidden md:flex space-x-8">
                 <a href="/" className="hover:text-gray-600">Home</a>
                 <a href="/projects" className="hover:text-gray-600">Projects</a>
@@ -39,9 +39,9 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="bg-gray-50 border-t">
-          <div className="container mx-auto px-4 py-8">
+          <div className="mx-auto px-4 py-8" style={{ maxWidth: '980px' }}>
             <div className="text-center text-gray-600">
-              &copy; {new Date().getFullYear()} Strassen und Brückensau. All rights reserved.
+              &copy; {new Date().getFullYear()} Strassen und Brückenbau. All rights reserved.
             </div>
           </div>
         </footer>
