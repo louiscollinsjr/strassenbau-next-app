@@ -7,7 +7,7 @@ export default function Header() {
         <header className="fixed w-full bg-[rgb(29,30,32)]/90 backdrop-blur-sm z-50 border-b border-white/0">
             <div className="max-w-5xl mx-auto px-8 py-6">
                 <div className="flex items-center justify-between">
-                    <Link href="/" className="text-lg md:text-4xl font-semibold text-white">
+                    <Link href="/" className="text-lg md:text-2xl font-semibold text-white">
                         Strassen und Bruekenbau
                     </Link>
                     <nav className="flex gap-6">
@@ -22,6 +22,9 @@ export default function Header() {
                         </Link>
                         <Link href="/portfolio" className="text-white/80 hover:text-white transition-colors">
                             Portfolio
+                        </Link>
+                        <Link href="/sustainability" className="text-white/80 hover:text-white transition-colors">
+                            Sustainability
                         </Link>
                         <Link href="/contact" className="text-white/80 hover:text-white transition-colors">
                             Contact
