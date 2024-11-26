@@ -37,9 +37,9 @@ export default function ThermalRehabProjects() {
     return (
         <section className="max-w-5xl mx-auto px-8 py-16">
             <div className="mb-24">
-                <p className="text-sm font-semibold tracking-wider text-white/70 uppercase mb-3">Residential Infrastructure</p>
-                <h2 className="text-3xl font-bold text-white mb-4">Thermal Rehabilitation Projects</h2>
-                <p className="text-sm text-white/70 max-w-3xl">Strategic initiative for improving energy efficiency in residential buildings across Reșița, focusing on modernizing apartment blocks to enhance comfort and reduce energy consumption for residents.</p>
+                <p className="text-sm font-semibold tracking-wider text-gray-900 dark:text-white  uppercase mb-3">Residential Infrastructure</p>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Thermal Rehabilitation Projects</h2>
+                <p className="text-sm text-gray-900 dark:text-white  max-w-3xl">Strategic initiative for improving energy efficiency in residential buildings across Reșița, focusing on modernizing apartment blocks to enhance comfort and reduce energy consumption for residents.</p>
             </div>
 
             {projects.map((project) => (
@@ -65,13 +65,13 @@ export default function ThermalRehabProjects() {
 
                         {/* Title and Description Row */}
                         <div>
-                            <h3 className="text-3xl font-semibold text-white mb-4 leading-tight pt-4">
+                            <h3 className="text-3xl font-semibold text-gray-900 dark:text-white mb-4 leading-tight pt-4">
                                 {project.title}
                             </h3>
-                            <p className="text-white/70 leading-relaxed mb-2">
+                            <p className="text-gray-900 dark:text-white/70 leading-relaxed mb-2">
                                 {project.description}
                             </p>
-                            <p className="text-white/70 leading-relaxed mb-2">The thermal rehabilitation project aims to address these issues by enhancing the thermal properties of such buildings, thereby reducing energy consumption and improving indoor comfort for residents.</p>
+                            <p className="text-gray-900 dark:text-white/70 leading-relaxed mb-2">The thermal rehabilitation project aims to address these issues by enhancing the thermal properties of such buildings, thereby reducing energy consumption and improving indoor comfort for residents.</p>
                             <p className="text-sm text-white/50">
                                 {project.location}
                             </p>
@@ -79,15 +79,15 @@ export default function ThermalRehabProjects() {
                     </div>
 
                     {/* Details Column (spans both rows) */}
-                    <div className="row-span-2 p-8 bg-white/5 rounded-lg text-white/70 leading-relaxed text-sm">
-                       <h1 className='font-bold pr-24 text-3xl text-white pb-10'>{project.detailsTitle}</h1> 
+                    <div className="row-span-2 p-8 bg-gray-200/30 dark:bg-white/5 rounded-lg text-gray-900 dark:text-white  leading-relaxed text-sm">
+                       <h1 className='font-bold pr-24 text-3xl text-gray-900 dark:text-white pb-10'>{project.detailsTitle}</h1> 
                         {project.details}
                         
                         <div className="mt-8 mb-8">
-                            <h4 className="font-semibold text-lg text-white mb-4">Overview of the Rehabilitation Program</h4>
+                            <h4 className="font-semibold text-lg text-gray-900 dark:text-white mb-4">Overview of the Rehabilitation Program</h4>
                             <div className="space-y-6">
                                 <div>
-                                    <h5 className="font-medium text-white mb-2">Objectives:</h5>
+                                    <h5 className="font-medium text-gray-900 dark:text-white mb-2">Objectives:</h5>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>Improve energy efficiency of residential buildings.</li>
                                         <li>Reduce energy consumption by approximately 50%.</li>
@@ -95,7 +95,7 @@ export default function ThermalRehabProjects() {
                                     </ul>
                                 </div>
                                 <div>
-                                    <h5 className="font-medium text-white mb-2">Scope of Work:</h5>
+                                    <h5 className="font-medium text-gray-900 dark:text-white mb-2">Scope of Work:</h5>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>Insulation of walls and roofs.</li>
                                         <li>Installation of double-glazed windows.</li>
@@ -118,7 +118,7 @@ export default function ThermalRehabProjects() {
                             </video>
                         </div>
 
-                        <p className='text-white/70'>This program has significantly impacted residents by improving living conditions and reducing energy costs.</p>
+                        <p className='text-gray-900 dark:text-white/70'>This program has significantly impacted residents by improving living conditions and reducing energy costs.</p>
                     </div>
                 </div>
             ))}

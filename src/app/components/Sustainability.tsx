@@ -47,14 +47,14 @@ export default function Sustainability() {
             </div>
 
             {/* Header */}
-            <div className="mb-24 text-white">
+            <div className="mb-24 text-gray-900 dark:text-white">
                 <p className="text-sm font-semibold tracking-wider text-slate-200 uppercase mb-3">Our Commitment</p>
                 <h2 className="text-3xl font-bold mb-4">Sustainability</h2>
                 <div className="max-w-3xl">
                     <p className="text-whhite mb-6 leading-relaxed">
                         Sustainability is a cornerstone of our business philosophy at Strassen und Bruekenbau. As the construction industry faces increasing environmental challenges, we recognize our responsibility to lead the way in sustainable development practices and minimize our ecological footprint.
                     </p>
-                    <p className="text-white leading-relaxed">
+                    <p className= "text-gray-900 dark:text-white leading-relaxed">
                         Through innovative design principles, sustainable construction methods, and environmentally conscious operational processes, we not only reduce our environmental impact but also create lasting value for our clients and communities. In today&apos;s evolving market, sustainability isn&apos;t just an option—it&apos;s an essential driver of long-term success and responsible business practice.
                     </p>
                 </div>
@@ -67,7 +67,7 @@ export default function Sustainability() {
                         {/* <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center text-green-600 mb-4">
                             {pillar.icon}
                         </div> */}
-                        <h3 className="text-lg font-semibold text-white mb-2">{pillar.title}</h3>
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{pillar.title}</h3>
                         <p className="text-slate-100 text-sm leading-relaxed">{pillar.description}</p>
                     </div>
                 ))}
@@ -75,7 +75,7 @@ export default function Sustainability() {
 
             {/* Commitment Statement */}
             <div className="bg-gray-50/5 rounded-lg p-8 mb-24">
-                <h3 className="text-xl font-semibold text-white mb-4">Our Sustainable Approach</h3>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Our Sustainable Approach</h3>
                 <div className="space-y-4 text-gray-200 leading-relaxed">
                     <p>
                         We integrate sustainable practices throughout our project lifecycle, from initial planning to final construction and ongoing operations. Our approach encompasses:
@@ -93,14 +93,14 @@ export default function Sustainability() {
 
             {/* Future Vision */}
             <div className="text-center max-w-3xl mx-auto">
-                <h3 className="text-2xl font-semibold text-white mb-4">Looking to the Future</h3>
-                <p className="text-lg text-white mb-8">
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Looking to the Future</h3>
+                <p className="text-lg text-gray-900 dark:text-white mb-8">
                     We&apos;re not just building structures; we&apos;re building a sustainable future. Our commitment doesn&apos;t stop at construction excellence.
                 </p>
-                <p className="text-white leading-relaxed">
+                <p className= "text-gray-900 dark:text-white leading-relaxed">
                     As we continue to grow and evolve, our commitment to sustainability remains unwavering. We&apos;re constantly exploring new technologies and methodologies to enhance our sustainable practices and contribute to a more environmentally conscious construction industry.
                 </p>
-                <p className="text-white mb-6">
+                <p className= "text-gray-900 dark:text-white mb-6">
                     We&apos;re proud to lead by example.
                 </p>
             </div>

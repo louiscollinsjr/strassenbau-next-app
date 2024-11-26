@@ -160,8 +160,8 @@ export default function PortfolioPage() {
 
             {/* Portfolio Overview Section */}
             <div className="mx-auto px-4 py-8 md:py-20 min-h-[30vh] flex flex-col justify-center" style={{ maxWidth: '980px' }}>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8">Our Portfolio</h1>
-                <div className="space-y-6 text-white/70">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-8">Our Portfolio</h1>
+                <div className="space-y-6 text-gray-900 dark:text-white ">
                     <p className="text-lg leading-relaxed">
                     <span className='text-white text-xl font-medium'>Strassen und Bruekenbau Romaina and Strassen und Bruekenbau Serbia (Sala & Raulac doo)</span>  have a complex portfolio of works, including individual and collective housing, tourist hostels, 
                         industrial halls, offices, clinics and hospitals, sports facilities and interior design in different locations 
@@ -184,10 +184,10 @@ export default function PortfolioPage() {
                                 <div className="relative h-32">
                                 </div>
                                 <div className="p-6">
-                                   <div className="inline-block px-2 py-1 text-xs uppercase bg-white/10 text-white/70 rounded-md mb-3">{project.status}</div>
-                                    <h3 className="text-xl font-semibold text-white mb-0">{project.title} </h3>
-                                    <p className="text-white/70 text-xs mb-2">{project.year}  {project.location}  {project.country}</p>
-                                    <p className="text-white/70 text-xs">{project.description}</p>
+                                   <div className="inline-block px-2 py-1 text-xs uppercase bg-gray-200/30dark:bg-white/10  text-gray-900 dark:text-white  rounded-md mb-3">{project.status}</div>
+                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-0">{project.title} </h3>
+                                    <p className="text-gray-900 dark:text-white/70 text-xs mb-2">{project.year}  {project.location}  {project.country}</p>
+                                    <p className="text-gray-900 dark:text-white/70 text-xs">{project.description}</p>
                                 </div>
                             </div>
                         ))}
@@ -204,10 +204,10 @@ export default function PortfolioPage() {
                                 <div className="relative">
                                 </div>
                                 <div className="p-2">
-                                   <div className="inline-block px-2 py-1 text-xs uppercase bg-white/10 text-white/70 rounded-md mb-3">{project.status}</div>
-                                    <h3 className="text-xl font-semibold text-white mb-0">{project.title} </h3>
-                                    <p className="text-white/70 text-xs mb-2">{project.year}  {project.location}  {project.country}</p>
-                                    <p className="text-white/70 text-xs">{project.description}</p>
+                                   <div className="inline-block px-2 py-1 text-xs uppercase bg-gray-200/30dark:bg-white/10  text-gray-900 dark:text-white  rounded-md mb-3">{project.status}</div>
+                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-0">{project.title} </h3>
+                                    <p className="text-gray-900 dark:text-white/70 text-xs mb-2">{project.year}  {project.location}  {project.country}</p>
+                                    <p className="text-gray-900 dark:text-white/70 text-xs">{project.description}</p>
                                 </div>
                             </div>
                         ))}

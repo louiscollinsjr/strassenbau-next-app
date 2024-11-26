@@ -3,62 +3,62 @@ export default function CompanyInfo() {
         <div className=" mt-12">
             {/* Specializations Column */}
             <div className="space-y-6">
-                <h2 className="text-2xl font-semibold text-white pt-20 pb-8">Our Specializations</h2>
-                <ul className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 text-sm text-white/70">
+                <h2 className="text-2xl font-semibold  text-gray-900 dark:text-white pt-20 pb-8">Our Specializations</h2>
+                <ul className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 text-sm text-gray-800 dark:text-white">
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Civil and Industrial Construction
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Structure
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Thermal Rehabilitation
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Interior Finishes
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Exterior Finishes
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Infrastructure Works
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Low and Medium Voltage Electrical Networks
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Art Works
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Thermal Installations
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className="text-gray-900 dark:text-white mr-2">•</span>
                         Sanitary Installations
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Ventilation and Air Conditioning Installations
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Hydrant Installations
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Electrical Installations
                     </li>
                     <li className="flex items-center">
-                        <span className="text-white/40 mr-2">•</span>
+                        <span className=" text-gray-900 dark:text-white mr-2">•</span>
                         Low Current Electrical Installations
                     </li>
                 </ul>
@@ -66,7 +66,7 @@ export default function CompanyInfo() {
 
             {/* Contact Information Column */}
             {/* <div className="space-y-4">
-                <h2 className="text-2xl font-semibold text-white mb-6">Contact Information</h2>
+                <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Contact Information</h2>
                 <div className="space-y-3 text-white/80">
                     <p><span className="font-medium">Address:</span><br />
                     Hauptstraße 123<br />

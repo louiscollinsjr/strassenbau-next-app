@@ -53,9 +53,9 @@ export default function KindergartenProjects() {
     return (
         <section className="max-w-5xl mx-auto px-8 py-16">
             <div className="mb-24">
-                <p className="text-sm font-semibold tracking-wider text-white/70 uppercase mb-3">Educational Infrastructure</p>
-                <h2 className="text-3xl font-bold text-white mb-4">Kindergarten Rehabilitation Projects</h2>
-                <p className="text-sm text-white/70 max-w-3xl">This rehabilitation is part of a comprehensive program to modernize kindergartens and schools in Reșița, including educational units like the Dumbrava Minunată Kindergarten. These strategic investments are crucial for enhancing educational infrastructure and ensuring equitable access to quality learning environments for all children in the community.</p>
+                <p className="text-sm font-semibold tracking-wider text-gray-900 dark:text-white  uppercase mb-3">Educational Infrastructure</p>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Kindergarten Rehabilitation Projects</h2>
+                <p className="text-sm text-gray-900 dark:text-white  max-w-3xl">This rehabilitation is part of a comprehensive program to modernize kindergartens and schools in Reșița, including educational units like the Dumbrava Minunată Kindergarten. These strategic investments are crucial for enhancing educational infrastructure and ensuring equitable access to quality learning environments for all children in the community.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-16">
                 {/* Left Column */}
@@ -68,10 +68,10 @@ export default function KindergartenProjects() {
                             <div className="text-3xl font-bold text-white/90 mb-4">
                                 No.{project.id}
                             </div>
-                            <h2 className="text-lg font-semibold text-white mb-4 leading-tight">
+                            <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 leading-tight">
                                 {project.title}
                             </h2>
-                            <p className="text-white/70 leading-relaxed mb-4">
+                            <p className="text-gray-900 dark:text-white/70 leading-relaxed mb-4">
                                 {project.description}
                             </p>
                             <p className="text-sm text-white/50">
@@ -110,12 +110,12 @@ export default function KindergartenProjects() {
                                     />
                                 ) : (
                                     <div 
-                                        className="w-full pb-[66.67%] bg-white/10"
+                                        className="w-full pb-[66.67%] bg-gray-200/30 dark:bg-white/10 "
                                         aria-label={`${project.title} project image`}
                                     />
                                 )}
                             </div>
-                            <div className="p-4 bg-white/5 rounded-lg text-white/70 leading-relaxed text-sm">
+                            <div className="p-4 bg-gray-200/30 rounded-lg text-gray-900 dark:text-white  leading-relaxed text-sm">
                                 {project.details}
                             </div>
                         </div>

@@ -31,7 +31,7 @@ const partners: Partner[] = [
 export default function CompanyPartners() {
     return (
         <section className="mx-auto px-6 pt-24" style={{ maxWidth: '980px' }}>
-            <h2 className="text-2xl font-semibold text-white mb-0">Our Partners</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-0">Our Partners</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                 {partners.map((partner, index) => (
                     <Link 
@@ -46,8 +46,8 @@ export default function CompanyPartners() {
                                
                             </div>
                             <div className="text-left">
-                                <h3 className="text-white text-sm font-medium mb-2">{partner.name}</h3>
-                                <p className="text-white/50 text-sm group-hover:text-white/70 transition-colors duration-300">
+                                <h3 className= "text-gray-900 dark:text-white text-sm font-medium mb-2">{partner.name}</h3>
+                                <p className="text-gray-900 dark:text-white/50 text-sm group-hover:text-white/70 transition-colors duration-300">
                                     Visit Website →
                                 </p>
                             </div>
