@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <div className="mx-auto px-4 py-8 md:py-20 min-h-[50vh] flex flex-col justify-center" style={{ maxWidth: '980px' }}>
-        <div className="flex justify-left mb-2 pl-1">
+        <div className="flex justify-left mb-1 pl-1">
           <Image
             src="/images/logo_bridge.svg"
             alt="Bridge Logo"
