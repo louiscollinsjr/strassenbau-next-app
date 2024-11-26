@@ -14,6 +14,10 @@ const partners: Partner[] = [
         website: "https://strassenbau.rs",
     },
     {
+        name: "Caransebeș Municipality City Hall",
+        website: "https://www.primaria-caransebes.ro/",
+    },
+    {
         name: "Acticas Luna, SRL",
         website: "https://www.actiasluna.eu/",
     },

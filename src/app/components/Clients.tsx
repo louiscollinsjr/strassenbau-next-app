@@ -7,6 +7,7 @@ const clientsList: CompanyClients[] = [
     {
         company: "Strassen und Brueckenbau Romania",
         clients: [
+            "Caransebeș Municipality City Hall",
             "Resita Municipality",
             "Petrosani Municipality",
             "Oravita City",
