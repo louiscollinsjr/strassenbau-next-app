@@ -35,6 +35,17 @@ const sustainabilityPillars = [
 export default function Sustainability() {
     return (
         <section className="max-w-5xl mx-auto px-8 py-16">
+            {/* Header Image */}
+            <div className="mb-16 rounded-lg overflow-hidden">
+                <Image
+                    src="/images/future.png"
+                    alt="Sustainable Construction Future"
+                    width={980}
+                    height={400}
+                    className="w-full object-cover"
+                />
+            </div>
+
             {/* Header */}
             <div className="mb-24">
                 <p className="text-sm font-semibold tracking-wider text-slate-600 uppercase mb-3">Our Commitment</p>
@@ -53,9 +64,9 @@ export default function Sustainability() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
                 {sustainabilityPillars.map((pillar, index) => (
                     <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                        <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center text-green-600 mb-4">
+                        {/* <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center text-green-600 mb-4">
                             {pillar.icon}
-                        </div>
+                        </div> */}
                         <h3 className="text-lg font-semibold text-gray-900 mb-2">{pillar.title}</h3>
                         <p className="text-gray-600 text-sm leading-relaxed">{pillar.description}</p>
                     </div>

@@ -17,6 +17,9 @@ export default function Header() {
                         <Link href="/sustainability" className="text-gray-600 hover:text-gray-900">
                             Sustainability
                         </Link>
+                        <span className="text-gray-300 cursor-not-allowed" title="Coming Soon">
+                            Careers
+                        </span>
                     </nav>
                 </div>
             </div>
