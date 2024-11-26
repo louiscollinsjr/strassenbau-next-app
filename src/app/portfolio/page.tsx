@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import ThermalRehabProjects from '../components/ThermalRehabProjects';
 import KindergartenProjects from '../components/KindergartenProjects';
 import CollegeProjects from '../components/CollegeProjects';
