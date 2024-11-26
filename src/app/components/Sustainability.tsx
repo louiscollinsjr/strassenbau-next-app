@@ -55,7 +55,7 @@ export default function Sustainability() {
                         Sustainability is a cornerstone of our business philosophy at Strassen und Brückenbau. As the construction industry faces increasing environmental challenges, we recognize our responsibility to lead the way in sustainable development practices and minimize our ecological footprint.
                     </p>
                     <p className="text-gray-600 leading-relaxed">
-                        Through innovative design principles, sustainable construction methods, and environmentally conscious operational processes, we not only reduce our environmental impact but also create lasting value for our clients and communities. In today's evolving market, sustainability isn't just an option—it's an essential driver of long-term success and responsible business practice.
+                        Through innovative design principles, sustainable construction methods, and environmentally conscious operational processes, we not only reduce our environmental impact but also create lasting value for our clients and communities. In today&apos;s evolving market, sustainability isn&apos;t just an option—it&apos;s an essential driver of long-term success and responsible business practice.
                     </p>
                 </div>
             </div>
@@ -94,8 +94,14 @@ export default function Sustainability() {
             {/* Future Vision */}
             <div className="text-center max-w-3xl mx-auto">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Looking to the Future</h3>
+                <p className="text-lg text-gray-600 mb-8">
+                    We&apos;re not just building structures; we&apos;re building a sustainable future. Our commitment doesn&apos;t stop at construction excellence.
+                </p>
                 <p className="text-gray-600 leading-relaxed">
-                    As we continue to grow and evolve, our commitment to sustainability remains unwavering. We're constantly exploring new technologies and methodologies to enhance our sustainable practices and contribute to a more environmentally conscious construction industry.
+                    As we continue to grow and evolve, our commitment to sustainability remains unwavering. We&apos;re constantly exploring new technologies and methodologies to enhance our sustainable practices and contribute to a more environmentally conscious construction industry.
+                </p>
+                <p className="text-gray-600 mb-6">
+                    We&apos;re proud to lead by example.
                 </p>
             </div>
         </section>
