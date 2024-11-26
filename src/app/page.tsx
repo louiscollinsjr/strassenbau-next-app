@@ -10,13 +10,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div
-        className="mx-auto pt-12 md:pt-10"
-        style={{ maxWidth: "980px" }}
-      ></div>
       <Welcome />
-      
-      <DownloadProfile />
 
       <ThermalRehabProjects />
 

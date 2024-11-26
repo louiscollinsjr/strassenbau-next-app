@@ -1,11 +1,11 @@
 export default function DownloadProfile() {
     return (
-        <div className="mx-auto px-4 py-8" style={{ maxWidth: "980px" }}>
+        <div className="mx-auto py-12">
             <a
                 href="/Company Profile STRASSEN UND BRÜCKENBAU SRL.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-gray-200/30 dark:bg-white/10 hover:bg-gray-200/60 text-gray-900 dark:text-white rounded-lg transition-all duration-300"
+                className="inline-flex items-center px-6 py-3 bg-black dark:bg-white/10 hover:bg-gray-200/60 text-white dark:text-white rounded-lg transition-all duration-300"
             >
                 <svg
                     className="w-5 h-5 mr-2"
