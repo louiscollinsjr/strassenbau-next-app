@@ -1,11 +1,16 @@
 'use client';
 
+import Image from 'next/image';
+import { useRef, useEffect } from 'react';
+
 interface Project {
     id: number;
     title: string;
     location: string;
     description: string;
     details: string;
+    image?: string;
+    video?: string;
 }
 
 const projects: Project[] = [
@@ -15,6 +20,8 @@ const projects: Project[] = [
         location: "Reșița, Romania",
         description: "Comprehensive modernization of facilities, including the development of accessible features for individuals with disabilities.",
         details: "The rehabilitation of the kindergarten will increase its capacity from 160 to 200 children, starting from September 15. These initiatives are essential for improving educational infrastructure and increasing accessibility for all children in the community.",
+        image: "/images/K1-image01.png",
+        video: "/videos/K1-video01.mp4"
     },
     {
         id: 2,
@@ -22,6 +29,7 @@ const projects: Project[] = [
         location: "Reșița, Romania",
         description: "This includes upgrading classrooms, play areas, and other essential facilities to create a more conducive learning environment for preschool children.",
         details: "The revitalization of Grădinița “Palatul Fermecat” reflects a broader commitment to enhancing early childhood education facilities within Reșița, ensuring that children have access to high-quality educational environments. As of September 2024, construction work is ongoing, with the local government actively overseeing the progress. The contract for continuing these works was signed in April 2023, indicating a commitment to completing the project efficiently",
+        image: "/images/K1-image02.png"
     },
     {
         id: 3,
@@ -29,10 +37,19 @@ const projects: Project[] = [
         location: "Reșița, Romania",
         description: "The project aims to rehabilitate and modernize kindergartens and nurseries in Reșița, to enhance early childhood education conditions.",
         details: "The rehabilitation of Kindergarten No. 3 will enhance educational quality by creating a stimulating and supportive learning environment for children. This project reflects the commitment of local authorities to invest in early education and ensure optimal conditions for the development of children in Reșița.",
+        image: "/images/K1-image03.png"
     }
 ];
 
 export default function KindergartenProjects() {
+    const videoRef = useRef<HTMLVideoElement>(null);
+
+    useEffect(() => {
+        if (videoRef.current) {
+            videoRef.current.currentTime = 1;
+        }
+    }, []);
+
     return (
         <section className="max-w-5xl mx-auto px-8 py-16">
             <div className="mb-24">
@@ -69,13 +86,34 @@ export default function KindergartenProjects() {
                     {projects.map((project, index) => (
                         <div 
                             key={project.id} 
-                            className={`opacity-30 hover:opacity-100 transition-opacity duration-300 ease-in-out pb-16 ${index !== projects.length - 1 ? 'border-b border-gray-200' : ''}`}
+                            className={`pb-16 ${index !== projects.length - 1 ? 'border-b border-gray-200' : ''}`}
                         >
-                            <div className="mb-6 rounded-xl overflow-hidden bg-gray-100">
-                                <div 
-                                    className="w-full pb-[66.67%] bg-gray-200 hover:bg-gray-300 transition-colors duration-300 ease-in-out"
-                                    aria-label={`${project.title} project image`}
-                                />
+                            <div className="mb-6 rounded-sm overflow-hidden bg-gray-100">
+                                {project.video ? (
+                                    <video 
+                                        ref={videoRef}
+                                        className="w-full h-auto"
+                                        controls
+                                        preload="metadata"
+                                        controlsList="nodownload"
+                                    >
+                                        <source src={project.video} type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                ) : project.image ? (
+                                    <Image
+                                        src={project.image}
+                                        alt={`${project.title} project image`}
+                                        width={800}
+                                        height={533}
+                                        className="w-full h-auto object-cover"
+                                    />
+                                ) : (
+                                    <div 
+                                        className="w-full pb-[66.67%] bg-gray-50"
+                                        aria-label={`${project.title} project image`}
+                                    />
+                                )}
                             </div>
                             <div className="p-4 bg-gray-50 rounded-lg text-gray-700 leading-relaxed text-sm">
                                 {project.details}
