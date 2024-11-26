@@ -53,9 +53,9 @@ export default function KindergartenProjects() {
     return (
         <section className="max-w-5xl mx-auto px-8 py-16">
             <div className="mb-24">
-                <p className="text-sm font-semibold tracking-wider text-slate-600 uppercase mb-3">Educational Infrastructure</p>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Kindergarten Rehabilitation Projects</h2>
-                <p className="text-sm text-gray-600 max-w-3xl">This rehabilitation is part of a comprehensive program to modernize kindergartens and schools in Reșița, including educational units like the Dumbrava Minunată Kindergarten. These strategic investments are crucial for enhancing educational infrastructure and ensuring equitable access to quality learning environments for all children in the community.</p>
+                <p className="text-sm font-semibold tracking-wider text-white/70 uppercase mb-3">Educational Infrastructure</p>
+                <h2 className="text-3xl font-bold text-white mb-4">Kindergarten Rehabilitation Projects</h2>
+                <p className="text-sm text-white/70 max-w-3xl">This rehabilitation is part of a comprehensive program to modernize kindergartens and schools in Reșița, including educational units like the Dumbrava Minunată Kindergarten. These strategic investments are crucial for enhancing educational infrastructure and ensuring equitable access to quality learning environments for all children in the community.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-16">
                 {/* Left Column */}
@@ -65,16 +65,16 @@ export default function KindergartenProjects() {
                             key={project.id} 
                             className="bg-transparent hover:-translate-y-1 transition-transform duration-300 ease-in-out"
                         >
-                            <div className="text-3xl font-bold text-gray-800 mb-4">
+                            <div className="text-3xl font-bold text-white/90 mb-4">
                                 No.{project.id}
                             </div>
-                            <h2 className="text-lg font-semibold text-gray-900 mb-4 leading-tight">
+                            <h2 className="text-lg font-semibold text-white mb-4 leading-tight">
                                 {project.title}
                             </h2>
-                            <p className="text-gray-600 leading-relaxed mb-4">
+                            <p className="text-white/70 leading-relaxed mb-4">
                                 {project.description}
                             </p>
-                            <p className="text-sm text-gray-500">
+                            <p className="text-sm text-white/50">
                                 {project.location}
                             </p>
                         </div>
@@ -86,9 +86,9 @@ export default function KindergartenProjects() {
                     {projects.map((project, index) => (
                         <div 
                             key={project.id} 
-                            className={`pb-16 ${index !== projects.length - 1 ? 'border-b border-gray-200' : ''}`}
+                            className={`pb-16 ${index !== projects.length - 1 ? 'border-b border-white/10' : ''}`}
                         >
-                            <div className="mb-6 rounded-sm overflow-hidden bg-gray-100">
+                            <div className="mb-6 rounded-sm overflow-hidden bg-white/5">
                                 {project.video ? (
                                     <video 
                                         ref={videoRef}
@@ -110,12 +110,12 @@ export default function KindergartenProjects() {
                                     />
                                 ) : (
                                     <div 
-                                        className="w-full pb-[66.67%] bg-gray-50"
+                                        className="w-full pb-[66.67%] bg-white/10"
                                         aria-label={`${project.title} project image`}
                                     />
                                 )}
                             </div>
-                            <div className="p-4 bg-gray-50 rounded-lg text-gray-700 leading-relaxed text-sm">
+                            <div className="p-4 bg-white/5 rounded-lg text-white/70 leading-relaxed text-sm">
                                 {project.details}
                             </div>
                         </div>

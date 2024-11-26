@@ -47,16 +47,16 @@ export default function CollegeProjects() {
     return (
         <section className="max-w-5xl mx-auto px-8 py-16">
             <div className="mb-24">
-                <p className="text-sm font-semibold tracking-wider text-slate-600 uppercase mb-3">Educational Infrastructure</p>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Military College Development</h2>
-                <p className="text-sm text-gray-600 max-w-3xl">Strategic development of military educational facilities to support the next generation of military officers with modern infrastructure and training facilities.</p>
+                <p className="text-sm font-semibold tracking-wider text-white/70 uppercase mb-3">Educational Infrastructure</p>
+                <h2 className="text-3xl font-bold text-white mb-4">Military College Development</h2>
+                <p className="text-sm text-white/70 max-w-3xl">Strategic development of military educational facilities to support the next generation of military officers with modern infrastructure and training facilities.</p>
             </div>
 
             {projects.map((project) => (
                 <div key={project.id} className="grid grid-cols-[1fr_1.2fr] gap-8 mb-16">
                     <div className="grid gap-8">
                         {/* Image Row */}
-                        <div className="rounded-sm overflow-hidden bg-gray-100">
+                        <div className="rounded-sm overflow-hidden bg-white/5">
                             {project.image ? (
                                 <Image
                                     src={project.image}
@@ -67,7 +67,7 @@ export default function CollegeProjects() {
                                 />
                             ) : (
                                 <div 
-                                    className="w-full pb-[66.67%] bg-gray-50"
+                                    className="w-full pb-[66.67%] bg-white/10"
                                     aria-label={`${project.title} project image`}
                                 />
                             )}
@@ -75,31 +75,31 @@ export default function CollegeProjects() {
 
                         {/* Title and Description Row */}
                         <div>
-                            <h3 className="text-3xl font-semibold text-gray-900 mb-4 leading-tight pt-4">
+                            <h3 className="text-3xl font-semibold text-white mb-4 leading-tight pt-4">
                                 {project.title}
                             </h3>
-                            <p className="text-gray-600 leading-relaxed mb-2">
+                            <p className="text-white/70 leading-relaxed mb-2">
                                 {project.description}
                             </p>
-                            <p className="text-gray-600 leading-relaxed mb-2">
+                            <p className="text-white/70 leading-relaxed mb-2">
                             The project includes 22 investment spaces among which: Accommodation Pavilion, Sports Hall, Infirmary, Food Block, Multifunctional Pavilion for Education.
                             </p>
-                            <p className="text-sm text-gray-500">
+                            <p className="text-sm text-white/50">
                                 {project.location}
                             </p>
                         </div>
                     </div>
 
                     {/* Details Column (spans both rows) */}
-                    <div className="row-span-2 p-8 bg-gray-50 rounded-lg text-gray-700 leading-relaxed text-sm">
-                       <h1 className='font-bold pr-24 text-3xl pb-10'>{project.detailsTitle}</h1> 
+                    <div className="row-span-2 p-8 bg-white/5 rounded-lg text-white/70 leading-relaxed text-sm">
+                       <h1 className='font-bold pr-24 text-3xl text-white pb-10'>{project.detailsTitle}</h1> 
                         {project.details}
                         
                         <div className="mt-8 mb-8">
-                            <h4 className="font-semibold text-lg mb-4">Project Overview</h4>
+                            <h4 className="font-semibold text-lg text-white mb-4">Project Overview</h4>
                             <div className="space-y-6">
                                 <div>
-                                    <h5 className="font-medium mb-2">Key Features:</h5>
+                                    <h5 className="font-medium text-white mb-2">Key Features:</h5>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>AREA:1,148.65 Sqm Built / 5,100.65 Sqm</li>
                                         <li>Project type: Feasibility Study & Design & Build</li>
@@ -107,7 +107,7 @@ export default function CollegeProjects() {
                                     </ul>
                                 </div>
                                 <div>
-                                    <h5 className="font-medium mb-2">Development Scope:</h5>
+                                    <h5 className="font-medium text-white mb-2">Development Scope:</h5>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>Construction of main educational building</li>
                                         <li>Development of training grounds and facilities</li>
@@ -119,7 +119,7 @@ export default function CollegeProjects() {
 
                         <div className="mt-8 mb-8">
                             <div className="relative">
-                                <div className="relative w-full h-auto aspect-video bg-gray-100 rounded-sm overflow-hidden">
+                                <div className="relative w-full h-auto aspect-video bg-white/5 rounded-sm overflow-hidden">
                                     <Image
                                         src={galleryImages[currentImage]}
                                         alt={`Gallery image ${currentImage + 1}`}
@@ -133,7 +133,7 @@ export default function CollegeProjects() {
                                         {currentImage > 0 ? (
                                             <button
                                                 onClick={previousImage}
-                                                className="ml-4 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-colors"
+                                                className="ml-4 bg-black/20 hover:bg-black/40 p-2 rounded-full shadow-lg transition-colors text-white"
                                                 aria-label="Previous image"
                                             >
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -144,7 +144,7 @@ export default function CollegeProjects() {
                                         {currentImage < galleryImages.length - 1 ? (
                                             <button
                                                 onClick={nextImage}
-                                                className="ml-auto mr-4 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-colors"
+                                                className="ml-auto mr-4 bg-black/20 hover:bg-black/40 p-2 rounded-full shadow-lg transition-colors text-white"
                                                 aria-label="Next image"
                                             >
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -161,7 +161,7 @@ export default function CollegeProjects() {
                                         <div
                                             key={index}
                                             className={`w-2 h-2 rounded-full transition-colors ${
-                                                index === currentImage ? 'bg-gray-800' : 'bg-gray-300'
+                                                index === currentImage ? 'bg-white' : 'bg-white/50'
                                             }`}
                                         />
                                     ))}
