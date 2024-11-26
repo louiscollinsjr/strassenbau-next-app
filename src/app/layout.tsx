@@ -26,13 +26,13 @@ export default function RootLayout({
       <body className={roboto.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
+          enableSystem={false}
           disableTransitionOnChange
         >
           <div className="min-h-screen bg-white dark:bg-[rgb(29,30,32)] text-gray-900 dark:text-white transition-colors">
             <Navigation />
-            <main className="pt-16">
+            <main className="">
               {children}
             </main>
             <Footer />
