@@ -1,5 +1,5 @@
 import CompanyInfo from './CompanyInfo';
-import CompanyPartners from './CompanyPartners';
+
 
 export default function Welcome() {
     return (
@@ -13,7 +13,7 @@ export default function Welcome() {
                 </p>
             </div>
             <CompanyInfo />
-            <CompanyPartners />
+        
 
         </section>
     );

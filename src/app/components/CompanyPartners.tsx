@@ -26,7 +26,7 @@ const partners: Partner[] = [
 
 export default function CompanyPartners() {
     return (
-        <section className="mx-auto px-0 pt-24" style={{ maxWidth: '980px' }}>
+        <section className="mx-auto px-6 pt-24" style={{ maxWidth: '980px' }}>
             <h2 className="text-2xl font-semibold text-white mb-0">Our Partners</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                 {partners.map((partner, index) => (
