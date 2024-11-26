@@ -13,32 +13,32 @@ const projects: Project[] = [
         id: 1,
         title: "Rehabilitation and Modernization of “Floarea Soarelui” Kindergarten",
         location: "Reșița, Romania",
-        description: "Complete modernization of facilities including new learning spaces and playground equipment.",
-        details: "Project scope included renovation of 500m² indoor space, installation of energy-efficient lighting, and creation of an interactive learning environment. Completion time: 6 months.",
+        description: "Comprehensive modernization of facilities, including the development of accessible features for individuals with disabilities.",
+        details: "The rehabilitation of the kindergarten will increase its capacity from 160 to 200 children, starting from September 15. These initiatives are essential for improving educational infrastructure and increasing accessibility for all children in the community.",
     },
     {
         id: 2,
         title: "Regenbogen Preschool Extension",
-        location: "Berlin, Germany",
-        description: "Extension of existing facility to accommodate growing community needs with sustainable design principles.",
-        details: "Added 300m² of new space including two classrooms, a multipurpose room, and an outdoor garden area. Focus on natural lighting and eco-friendly materials.",
+        location: "Reșița, Romania",
+        description: "This includes upgrading classrooms, play areas, and other essential facilities to create a more conducive learning environment for preschool children.",
+        details: "The revitalization of Grădinița “Palatul Fermecat” reflects a broader commitment to enhancing early childhood education facilities within Reșița, ensuring that children have access to high-quality educational environments. As of September 2024, construction work is ongoing, with the local government actively overseeing the progress. The contract for continuing these works was signed in April 2023, indicating a commitment to completing the project efficiently",
     },
     {
         id: 3,
-        title: "Kleine Sterne Facility Update",
-        location: "Hamburg, Germany",
-        description: "Safety and accessibility improvements with modern educational facilities integration.",
-        details: "Comprehensive safety upgrades, installation of smart learning technology, and creation of inclusive spaces for children of all abilities. Project duration: 4 months.",
+        title: "Rehabilitation and modernization of Kindergarten PN3",
+        location: "Reșița, Romania",
+        description: "The project aims to rehabilitate and modernize kindergartens and nurseries in Reșița, to enhance early childhood education conditions.",
+        details: "The rehabilitation of Kindergarten No. 3 will enhance educational quality by creating a stimulating and supportive learning environment for children. This project reflects the commitment of local authorities to invest in early education and ensure optimal conditions for the development of children in Reșița.",
     }
 ];
 
 export default function KindergartenProjects() {
     return (
         <section className="max-w-5xl mx-auto px-8 py-16">
-            <div className="mb-16">
-                <p className="text-sm font-semibold tracking-wider text-blue-600 uppercase mb-3">Educational Infrastructure</p>
+            <div className="mb-24">
+                <p className="text-sm font-semibold tracking-wider text-slate-600 uppercase mb-3">Educational Infrastructure</p>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Kindergarten Rehabilitation Projects</h2>
-                <p className="text-lg text-gray-600 max-w-3xl">Transforming early education spaces into modern, safe, and inspiring environments for the next generation of learners across Europe.</p>
+                <p className="text-sm text-gray-600 max-w-3xl">This rehabilitation is part of a comprehensive program to modernize kindergartens and schools in Reșița, including educational units like the Dumbrava Minunată Kindergarten. These strategic investments are crucial for enhancing educational infrastructure and ensuring equitable access to quality learning environments for all children in the community.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-16">
                 {/* Left Column */}
@@ -46,12 +46,12 @@ export default function KindergartenProjects() {
                     {projects.map((project) => (
                         <div 
                             key={project.id} 
-                            className="px-8 bg-white rounded-lg shadow-sm hover:-translate-y-1 transition-transform duration-300 ease-in-out"
+                            className="bg-transparent hover:-translate-y-1 transition-transform duration-300 ease-in-out"
                         >
-                            <div className="text-5xl font-bold text-gray-800 mb-4">
+                            <div className="text-3xl font-bold text-gray-800 mb-4">
                                 No.{project.id}
                             </div>
-                            <h2 className="text-2xl font-semibold text-gray-900 mb-4 leading-tight">
+                            <h2 className="text-lg font-semibold text-gray-900 mb-4 leading-tight">
                                 {project.title}
                             </h2>
                             <p className="text-gray-600 leading-relaxed mb-4">
@@ -66,10 +66,10 @@ export default function KindergartenProjects() {
 
                 {/* Right Column */}
                 <div className="grid gap-16">
-                    {projects.map((project) => (
+                    {projects.map((project, index) => (
                         <div 
                             key={project.id} 
-                            className="opacity-30 hover:opacity-100 transition-opacity duration-300 ease-in-out"
+                            className={`opacity-30 hover:opacity-100 transition-opacity duration-300 ease-in-out pb-16 ${index !== projects.length - 1 ? 'border-b border-gray-200' : ''}`}
                         >
                             <div className="mb-6 rounded-xl overflow-hidden bg-gray-100">
                                 <div 
@@ -77,7 +77,7 @@ export default function KindergartenProjects() {
                                     aria-label={`${project.title} project image`}
                                 />
                             </div>
-                            <div className="p-4 bg-gray-50 rounded-lg text-gray-700 leading-relaxed text-[0.95rem]">
+                            <div className="p-4 bg-gray-50 rounded-lg text-gray-700 leading-relaxed text-sm">
                                 {project.details}
                             </div>
                         </div>
