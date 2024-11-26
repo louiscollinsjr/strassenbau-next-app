@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <nav className="mx-auto px-4 py-4 relative z-50" style={{ maxWidth: '980px' }}>
       <div className="flex justify-between items-center">
-        <div className="font-medium text-lg md:text-2xl text-white">Strassen und Brückenbau</div>
+        <div className="font-medium text-lg md:text-2xl text-white">Strassen und Bruekenbau</div>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">

@@ -11,7 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Strassen und Brückenbau",
+  title: "Strassen und Bruekenbau",
   description: "Building the infrastructure of tomorrow",
 };
 

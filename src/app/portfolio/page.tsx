@@ -163,7 +163,7 @@ export default function PortfolioPage() {
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8">Our Portfolio</h1>
                 <div className="space-y-6 text-white/70">
                     <p className="text-lg leading-relaxed">
-                    <span className='text-white text-xl font-medium'>Strassen und Brückengbau Romaina and Strassen und Brückengbau Serbia (Sala & Raulac doo)</span>  have a complex portfolio of works, including individual and collective housing, tourist hostels, 
+                    <span className='text-white text-xl font-medium'>Strassen und Bruekenbau Romaina and Strassen und Bruekenbau Serbia (Sala & Raulac doo)</span>  have a complex portfolio of works, including individual and collective housing, tourist hostels, 
                         industrial halls, offices, clinics and hospitals, sports facilities and interior design in different locations 
                         in the country.
                     </p>

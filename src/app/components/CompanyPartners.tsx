@@ -10,7 +10,7 @@ interface Partner {
 const partners: Partner[] = [
    
     {
-        name: "Strassen und Brückengbau Serbia (Sala & Raulac doo)",
+        name: "Strassen und Bruekenbau Serbia (Sala & Raulac doo)",
         website: "https://strassenbau.rs",
     },
     {

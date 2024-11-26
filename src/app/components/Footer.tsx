@@ -43,7 +43,7 @@ export default function Footer() {
               <Link href="/terms-of-use" className="text-xs text-gray-400 hover:text-gray-300">Terms of Use</Link>
               <Link href="/contact" className="text-xs text-gray-400 hover:text-gray-300">Contact</Link>
             </div>
-            <p className="text-xs text-gray-400">&copy; 2024 Strassen und Brückenbau. All rights reserved.</p>
+            <p className="text-xs text-gray-400">&copy; 2024 Strassen und Bruekenbau. All rights reserved.</p>
           </div>
         </div>
       </div>

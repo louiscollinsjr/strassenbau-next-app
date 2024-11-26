@@ -9,7 +9,7 @@ export default function Legal() {
                     
                     <h2 className="text-xl font-semibold text-gray-900 mt-8 mb-4">Company Information</h2>
                     <p className="mb-4">
-                        Strassen und Brückenbau<br />
+                        Strassen und Bruekenbau<br />
                         [Company Registration Number]<br />
                         [Registered Address]
                     </p>

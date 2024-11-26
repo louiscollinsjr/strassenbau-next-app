@@ -8,7 +8,7 @@ export default function Header() {
             <div className="max-w-5xl mx-auto px-8 py-6">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="text-lg md:text-4xl font-semibold text-white">
-                        Strassen und Brückenbau
+                        Strassen und Bruekenbau
                     </Link>
                     <nav className="flex gap-6">
                         <Link href="/company" className="text-white/80 hover:text-white transition-colors">

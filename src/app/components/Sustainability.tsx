@@ -52,7 +52,7 @@ export default function Sustainability() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Sustainability</h2>
                 <div className="max-w-3xl">
                     <p className="text-gray-600 mb-6 leading-relaxed">
-                        Sustainability is a cornerstone of our business philosophy at Strassen und Brückenbau. As the construction industry faces increasing environmental challenges, we recognize our responsibility to lead the way in sustainable development practices and minimize our ecological footprint.
+                        Sustainability is a cornerstone of our business philosophy at Strassen und Bruekenbau. As the construction industry faces increasing environmental challenges, we recognize our responsibility to lead the way in sustainable development practices and minimize our ecological footprint.
                     </p>
                     <p className="text-gray-600 leading-relaxed">
                         Through innovative design principles, sustainable construction methods, and environmentally conscious operational processes, we not only reduce our environmental impact but also create lasting value for our clients and communities. In today&apos;s evolving market, sustainability isn&apos;t just an option—it&apos;s an essential driver of long-term success and responsible business practice.

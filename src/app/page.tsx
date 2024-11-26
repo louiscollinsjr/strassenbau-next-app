@@ -23,7 +23,7 @@ export default function Home() {
           /> */}
         </div>
         <h1 className="text-sm md:text-xl lg:text-2xl font-light mb-2 md:mb-4">
-          Strassen und Brückenbau
+          Strassen und Bruekenbau
         </h1>
         <p className="text-3xl md:text-5xl lg:text-8xl font-bold text-white">
           Building Connections, Strengthening Communities.
