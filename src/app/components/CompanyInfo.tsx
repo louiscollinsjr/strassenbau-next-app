@@ -3,7 +3,7 @@ export default function CompanyInfo() {
         <div className=" mt-12">
             {/* Specializations Column */}
             <div className="space-y-6">
-                <h2 className="text-2xl font-semibold text-white pt-20">Our Specializations</h2>
+                <h2 className="text-2xl font-semibold text-white pt-20 pb-8">Our Specializations</h2>
                 <ul className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 text-sm text-white/70">
                     <li className="flex items-center">
                         <span className="text-white/40 mr-2">•</span>
