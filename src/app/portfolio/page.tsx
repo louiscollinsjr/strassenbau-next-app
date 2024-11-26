@@ -8,29 +8,54 @@ export default function PortfolioPage() {
             description: "The thermal rehabilitation project aims to address these issues by enhancing the thermal properties of older buildings, thereby reducing energy consumption and improving indoor comfort for residents.",
             image: "/images/bragadiru1.jpg",
             category: "Residential Project",
-            Status:"Ongoing",
-            Country:"Romania",
-            Location:"Horia, Reșița",
-            Client:"Resita Municipality",
-            Year:"2024-2026"
+            status:"Ongoing",
+            country:"Romania",
+            location:"Horia, Reșița",
+            client:"Resita Municipality",
+            year:"2024-2026"
         },
         {
-            title: "BRAGADIRU DWELLING",
-            description: "Single-family house, surface area 220 sq m, concrete infrastructure execution, load-bearing masonry superstructure and finishes",
+            title: "Thermal Rehabilitation for Oravita City",
+            description: "The thermal rehabilitation project aims to address these issues by enhancing the thermal properties of older buildings, thereby reducing energy consumption and improving indoor comfort for residents.",
             image: "/images/bragadiru1.jpg",
-            category: "Residential Project"
+            category: "Residential Project",
+            status:"Ongoing",
+            country:"Romania",
+            location:"Oravita City, Reșila",
+            client:"Resita Municipality",
+            year:"2024-2026"
         },
         {
-            title: "BRAGADIRU DWELLING",
-            description: "Single-family house, surface area 220 sq m, concrete infrastructure execution, load-bearing masonry superstructure and finishes",
+            title: "Thermal Rehabilitation for Petrosani Municipality",
+            description: "The thermal rehabilitation project aims to address these issues by enhancing the thermal properties of older buildings, thereby reducing energy consumption and improving indoor comfort for residents.",
             image: "/images/bragadiru1.jpg",
-            category: "Residential Project"
+            category: "Residential Project",
+            status:"Ongoing",
+            country:"Romania",
+            location:"Petrosani",
+            client:"Petrosani Municipality",
+            year:"2024-2026"
         },
         {
-            title: "BRAGADIRU DWELLING",
-            description: "Single-family house, surface area 220 sq m, concrete infrastructure execution, load-bearing masonry superstructure and finishes",
+            title: "Design and Execution – Bridge for Obrenovac Municipality",
+            description: "",
             image: "/images/bragadiru1.jpg",
-            category: "Residential Project"
+            category: "Residential Project",
+            status:"Ongoing",
+            country:"Serbia",
+            location:"Obrenovac",
+            client:"Obrenovac Municipality",
+            year:"2024-2025"
+        }, {
+            title: "Design – Culverts and Bridges for Putevi Srbije",
+            description: "",
+            image: "/images/bragadiru1.jpg",
+            category: "Residential Project",
+            status:"Ongoing",
+            country:"Serbia",
+            location:"Putevi Srbije",
+            client:"Obrenovac Municipality",
+            year:"2024-2025"
         }
     ];
 
@@ -57,15 +82,16 @@ export default function PortfolioPage() {
              {/* Projects Grid  List */}
              <div className="mx-auto px-4 py-16">
                 <div className="mx-auto max-w-[980px]">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
                         {projects.map((project, index) => (
                             <div key={index} className="bg-white/5 rounded-lg overflow-hidden hover:transform hover:scale-[1.02] transition-all duration-300">
-                                <div className="relative h-64">
+                                <div className="relative h-32">
                                 </div>
                                 <div className="p-6">
-                                    <div className="text-sm text-white/50 mb-2">{project.category}</div>
-                                    <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
-                                    <p className="text-white/70">{project.description}</p>
+                                   <div className="inline-block px-2 py-1 text-xs uppercase bg-white/10 text-white/70 rounded-md mb-3">{project.status}</div>
+                                    <h3 className="text-xl font-semibold text-white mb-0">{project.title} </h3>
+                                    <p className="text-white/70 text-xs mb-2">{project.year} | {project.location} | {project.country}</p>
+                                    <p className="text-white/70 text-xs">{project.description}</p>
                                 </div>
                             </div>
                         ))}
