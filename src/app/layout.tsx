@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${roboto.className} bg-slate-900 text-white min-h-screen`}>
+      <body className={`${roboto.className} text-white min-h-screen`} style={{ backgroundColor: 'rgb(29, 30, 32)' }}>
         <Header />
         <main className="pt-16">
           {children}

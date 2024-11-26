@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 mt-12 md:mt-24">
+    <footer className=" mt-12 md:mt-24">
       <div className="mx-auto px-4" style={{ maxWidth: '980px' }}>
         <div className="flex justify-center space-x-4 md:space-x-6 py-4">
           <div className="relative group">
