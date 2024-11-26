@@ -2,16 +2,16 @@
 
 export default function Navigation() {
   return (
-    <nav className="mx-auto px-4 py-4" style={{ maxWidth: '980px' }}>
+    <nav className="mx-auto px-4 py-4 relative z-50" style={{ maxWidth: '980px' }}>
       <div className="flex justify-between items-center">
-        <div className="font-medium text-lg md:text-2xl ">Strassen und Brückenbau</div>
+        <div className="font-medium text-lg md:text-2xl text-white">Strassen und Brückenbau</div>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          <a href="/projects" className="hover:text-gray-600">Projects</a>
-          <a href="/team" className="hover:text-gray-600">Our Team</a>
-          <a href="/sustainability" className="hover:text-gray-600">Sustainability</a>
-          <a href="/news" className="hover:text-gray-600">News</a>
+          <a href="/projects" className="text-white hover:text-gray-300">Projects</a>
+          <a href="/team" className="text-white hover:text-gray-300">Our Team</a>
+          <a href="/sustainability" className="text-white hover:text-gray-300">Sustainability</a>
+          <a href="/news" className="text-white hover:text-gray-300">News</a>
         </div>
 
         {/* Mobile Navigation Button */}
@@ -24,7 +24,7 @@ export default function Navigation() {
           aria-label="Toggle menu"
         >
           <svg 
-            className="w-6 h-6" 
+            className="w-6 h-6 text-white" 
             fill="none" 
             strokeLinecap="round" 
             strokeLinejoin="round" 
@@ -35,15 +35,15 @@ export default function Navigation() {
             <path d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
-      </div>
 
-      {/* Mobile Navigation Menu */}
-      <div id="mobile-menu" className="hidden md:hidden pt-4 pb-2">
-        <div className="flex flex-col space-y-3">
-          <a href="/projects" className="hover:text-gray-600">Projects</a>
-          <a href="/team" className="hover:text-gray-600">Our Team</a>
-          <a href="/sustainability" className="hover:text-gray-600">Sustainability</a>
-          <a href="/news" className="hover:text-gray-600">News</a>
+        {/* Mobile Menu */}
+        <div id="mobile-menu" className="hidden absolute top-full left-0 right-0 bg-white shadow-lg rounded-b-lg">
+          <div className="flex flex-col p-4 space-y-3">
+            <a href="/projects" className="hover:text-gray-600">Projects</a>
+            <a href="/team" className="hover:text-gray-600">Our Team</a>
+            <a href="/sustainability" className="hover:text-gray-600">Sustainability</a>
+            <a href="/news" className="hover:text-gray-600">News</a>
+          </div>
         </div>
       </div>
     </nav>
