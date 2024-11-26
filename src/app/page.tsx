@@ -26,6 +26,6 @@ export default function Home() {
       <CollegeProjects />
       <div className="mx-auto border-b-4 border-gray-200" style={{ maxWidth: '980px' }}></div>
       <KindergartenProjects />
-    </main>
+    </main> 
   );
 }

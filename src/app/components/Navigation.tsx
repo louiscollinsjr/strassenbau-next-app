@@ -37,12 +37,12 @@ export default function Navigation() {
         </button>
 
         {/* Mobile Menu */}
-        <div id="mobile-menu" className="hidden absolute top-full left-0 right-0 bg-white shadow-lg rounded-b-lg">
+        <div id="mobile-menu" className="hidden absolute top-full left-0 right-0 bg-gray-800 shadow-lg rounded-b-lg">
           <div className="flex flex-col p-4 space-y-3">
-            <a href="/projects" className="hover:text-gray-600">Projects</a>
-            <a href="/team" className="hover:text-gray-600">Our Team</a>
-            <a href="/sustainability" className="hover:text-gray-600">Sustainability</a>
-            <a href="/news" className="hover:text-gray-600">News</a>
+            <a href="/projects" className="text-white hover:text-gray-300">Projects</a>
+            <a href="/team" className="text-white hover:text-gray-300">Our Team</a>
+            <a href="/sustainability" className="text-white hover:text-gray-300">Sustainability</a>
+            <a href="/news" className="text-white hover:text-gray-300">News</a>
           </div>
         </div>
       </div>

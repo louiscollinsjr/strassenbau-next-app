@@ -21,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${roboto.className} antialiased bg-white text-sm`}>
+    <html lang="en" className="dark">
+      <body className={`${roboto.className} bg-slate-900 text-white min-h-screen`}>
         <Header />
         <main className="pt-16">
           {children}
