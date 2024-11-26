@@ -11,20 +11,15 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Strassen und Brückenbau | Modern Construction Excellence",
-  description: "Leading construction company specializing in infrastructure projects across Romania. Expert road and bridge construction with German engineering excellence.",
-  keywords: "construction, infrastructure, roads, bridges, Romania, German engineering",
-  other: {
-    'google': 'notranslate',
-    'content-language': 'en'
-  }
+  title: "Strassen und Brückenbau",
+  description: "Building the infrastructure of tomorrow",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased bg-white text-sm`}>

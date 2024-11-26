@@ -1,5 +1,6 @@
 import KindergartenProjects from './components/KindergartenProjects';
 import ThermalRehabProjects from './components/ThermalRehabProjects';
+import CollegeProjects from './components/CollegeProjects';
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       </div> */}
       <div className="mx-auto pt-24" style={{ maxWidth: '980px' }}></div>
       <ThermalRehabProjects />
+      <div className="mx-auto border-b-4 border-gray-200" style={{ maxWidth: '980px' }}></div>
+      <CollegeProjects />
       <div className="mx-auto border-b-4 border-gray-200" style={{ maxWidth: '980px' }}></div>
       <KindergartenProjects />
     </main>
