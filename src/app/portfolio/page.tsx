@@ -100,7 +100,7 @@ export default function PortfolioPage() {
             year:"2025-2026"
         },
         {
-            title: "T. Viteazul Military School",
+            title: "Tudor Vladimirescu Military School",
             description: "",
             image: "/images/bragadiru1.jpg",
             category: "Residential Project",
@@ -112,17 +112,6 @@ export default function PortfolioPage() {
         },
         {
             title: "Schools and Kindergartens in Resita",
-            description: "",
-            image: "/images/bragadiru1.jpg",
-            category: "Residential Project",
-            status:"Completed",
-            country:"Romania",
-            location:"",
-            client:"Resita Municipality",
-            year:""
-        },
-        {
-            title: "M. Viteazul Military School",
             description: "",
             image: "/images/bragadiru1.jpg",
             category: "Residential Project",

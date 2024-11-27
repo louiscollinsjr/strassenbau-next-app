@@ -26,7 +26,7 @@ export default function ContactPage() {
                                 
                                 <div>
                                     <h3 className="font-medium text-gray-900 dark:text-white">Email</h3>
-                                    <p className="font-medium text-gray-900 dark:text-white">info@strassenbau.com.ro</p>
+                                    <p className="font-medium text-gray-900 dark:text-white">office@strassenbau.com.ro</p>
                                 </div>
                                 
                                 {/* <div>
