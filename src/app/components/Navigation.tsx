@@ -24,8 +24,7 @@ export default function Navigation() {
           </div>
 
           {/* Mobile Navigation Button */}
-          {/* <div className=" md:hidden flex items-center space-x-4">
-            <ThemeToggle />
+          <div className=" md:hidden flex items-center space-x-4">
             <button 
               className="p-2"
               onClick={() => {
@@ -46,7 +45,7 @@ export default function Navigation() {
                 <path d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
-          </div> */}
+          </div>
 
           {/* Mobile Menu */}
           <div id="mobile-menu" className="hidden fixed inset-0 top-[60px] bg-white dark:bg-[rgb(29,30,32)] h-screen">
