@@ -3,8 +3,8 @@ import DownloadProfile from "./DownloadProfile";
 export default function ServicesWelcome() {
     return (
         <section className="mx-auto px-[22px] pb-8 md:py-2 md:pr-40 max-w-5xl">
-            <div className="max-w-3xl">
-                <p className='text-lg font-medium text-gray-900 dark:text-white mb-2'>Comprehensive Infrastructure Solutions</p> 
+            <div className="max-w-4xl">
+                <p className='text-lg font-medium text-gray-900 dark:text-white mb-2'>Strassen und Bruekenbau: Comprehensive Infrastructure Solutions</p> 
                 <p className="text-base md:text-base text-gray-900 dark:text-white">
                     At Strassen und Bruekenbau, we deliver a full spectrum of infrastructure services, from initial planning to final execution. Our expertise spans across road construction, bridge engineering, and essential infrastructure development, ensuring that each project meets the highest standards of quality and sustainability.
                 </p>

@@ -1,13 +1,12 @@
 'use client'
-
-import ServiceHero from '../components/ServiceHero';
 import ServicesWelcome from '../components/ServicesWelcome';
 import CompanySpecializations from '../components/CompanySpecializations';
+import ServiceHeroPlus from '../components/ServiceHeroPlus';
 
 export default function ServicesPage() {
     return (
-        <main className="">
-            <ServiceHero />
+        <main className="pt-32">
+            <ServiceHeroPlus />
             <ServicesWelcome />
             <CompanySpecializations />
         </main>
