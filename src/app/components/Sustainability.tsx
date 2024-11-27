@@ -82,9 +82,9 @@ export default function Sustainability() {
             </div>
 
             {/* Future Vision */}
-            <div className="text-center max-w-3xl mx-auto bg-green-50 rounded-sm p-400 max-w-5xl mx-auto px-8 py-16">
-                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Looking to the Future</h3>
-                <p className="text-lg text-gray-900 dark:text-white mb-8">
+            <div className="text-center max-w-5xl bg-emerald-900/90 rounded-sm p-400 mx-auto px-8 py-16">
+                <h3 className="text-4xl font-semibold text-white dark:text-white mb-4">Looking to the Future</h3>
+                <p className="text-lg text-white dark:text-white mb-8">
                     We&apos;re not just building structures; we&apos;re building a sustainable future. Our commitment doesn&apos;t stop at construction excellence.
                 </p>
                 {/* <p className= "text-gray-900 dark:text-white leading-relaxed">
