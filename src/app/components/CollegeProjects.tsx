@@ -133,7 +133,7 @@ export default function CollegeProjects() {
                                         {currentImage > 0 ? (
                                             <button
                                                 onClick={previousImage}
-                                                className="ml-4 bg-black/20 hover:bg-black/40 p-2 rounded-full shadow-lg transition-colors text-gray-900 dark:text-white"
+                                                className="ml-4 bg-black/20 hover:bg-black/40 p-2 rounded-full shadow-lg transition-colors text-white dark:text-white"
                                                 aria-label="Previous image"
                                             >
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -144,7 +144,7 @@ export default function CollegeProjects() {
                                         {currentImage < galleryImages.length - 1 ? (
                                             <button
                                                 onClick={nextImage}
-                                                className="ml-auto mr-4 bg-black/20 hover:bg-black/40 p-2 rounded-full shadow-lg transition-colors text-gray-900 dark:text-white"
+                                                className="ml-auto mr-4 bg-black/20 hover:bg-black/40 p-2 rounded-full shadow-lg transition-colors text-white dark:text-white"
                                                 aria-label="Next image"
                                             >
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
