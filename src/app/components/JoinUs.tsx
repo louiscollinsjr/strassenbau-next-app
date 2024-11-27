@@ -21,13 +21,13 @@ export default function JoinUs() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 py-16">
-      <div className="bg-gray-900 rounded-sm p-8 md:p-12 relative overflow-hidden">
+      <div className="bg-gray-200/30 rounded-sm p-8 md:p-12 relative overflow-hidden">
         {/* Animated dots background */}
         <div className="absolute inset-0 opacity-10">
           {[...Array(50)].map((_, i) => (
             <div
               key={i}
-              className="absolute w-2 h-2 bg-white rounded-full"
+              className="absolute w-2 h-2 bg-gray-800/40 rounded-full"
               style={{
                 left: `${Math.random() * 100}%`,
                 top: `${Math.random() * 100}%`,
@@ -38,28 +38,29 @@ export default function JoinUs() {
         </div>
 
         <div className="relative z-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
             Join Our Growing Team of{' '}
-            <span className="text-blue-500 inline-block min-w-[200px]">{typedText}</span>
+            <span className="text-red-500 inline-block min-w-[200px] ">{typedText}</span>
           </h2>
-          <p className="text-lg text-gray-300 mb-8">
-            We&apos;re always looking for talented individuals to join our team
+          <p className="text-gray-600 text-lg mb-8 max-w-2xl">
+            Be part of something extraordinary. We&apos;re always looking for talented individuals who share our passion for innovation and excellence in construction and engineering.
           </p>
           
           <div className="flex flex-wrap gap-6">
             <Link 
               href="/careers"
-              className="inline-flex items-center px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-sm transition-colors duration-200"
+              className="inline-flex items-center px-6 py-3 bg-white hover:bg-blue-600 text-black font-medium rounded-lg transition-colors duration-200"
             >
               View Open Positions
-              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="ml-2 w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
+
             </Link>
             
             <Link 
               href="/contact"
-              className="inline-flex items-center px-6 py-3 border border-white/20 hover:bg-white/10 text-white font-medium rounded-sm transition-colors duration-200"
+              className="inline-flex items-center px-6 py-3 border border-white/20 hover:bg-white/10 text-gray-900 font-medium rounded-lg transition-colors duration-200"
             >
               Contact Us
             </Link>

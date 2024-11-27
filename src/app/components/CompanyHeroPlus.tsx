@@ -16,7 +16,7 @@ export default function CompanyHeroPlus() {
       setCurrentImageIndex((prevIndex) => 
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 8000); // Change image every 5 seconds
+    }, 6000); // Change image every 5 seconds
 
     return () => clearInterval(timer);
   }, []);

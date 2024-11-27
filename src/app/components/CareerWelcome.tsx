@@ -7,7 +7,7 @@ export default function CareerWelcome() {
                     At Strassen und Bruekenbau, we believe in fostering an environment where talent thrives and innovation flourishes. Our team members are at the heart of our success, bringing diverse perspectives and expertise to every project we undertake.
                 </p>
                 
-                <p className="text-lg text-gray-600 mb-8">
+                <p className="text-lg text-gray-600 py-8 mb-8">
                     While we don&apos;t have any open positions at the moment, we&apos;re always interested in connecting with talented individuals who share our passion for construction excellence.
                 </p>
             </div>
