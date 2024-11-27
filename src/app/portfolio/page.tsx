@@ -1,10 +1,10 @@
 'use client'
 
-import PortfolioHero from '../components/PortfolioHero';
 import PortfolioWelcome from '../components/PortfolioWelcome';
 import ThermalRehabProjects from '../components/ThermalRehabProjects';
 import KindergartenProjects from '../components/KindergartenProjects';
 import CollegeProjects from '../components/CollegeProjects';
+import PortfolioHeroPlus from '../components/PortfolioHeroPlus';
 
 export default function PortfolioPage() {
     const ongoingProjects = [
@@ -147,13 +147,13 @@ export default function PortfolioPage() {
     ];
 
     return (
-        <main className="">
+        <main className="md:pt-32">
 
-        <PortfolioHero />
+        <PortfolioHeroPlus />
         <PortfolioWelcome />
 
         <div
-        className="mx-auto border-b-4 border-gray-200"
+        className="mx-auto border-b-4 py-10 border-gray-200"
         style={{ maxWidth: "980px" }}
       ></div>
              {/* Projects Grid  List */}
