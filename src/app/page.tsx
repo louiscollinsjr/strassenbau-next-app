@@ -3,12 +3,14 @@ import ThermalRehabProjects from "./components/ThermalRehabProjects";
 import CollegeProjects from "./components/CollegeProjects";
 // import Image from 'next/image';
 import Welcome from "./components/Welcome";
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
+import HeroPlus from "./components/HeroPlus";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
+    <main className="pt-32">
+      <HeroPlus />
+      {/* <Hero /> */}
       <Welcome />
       
       <ThermalRehabProjects />
