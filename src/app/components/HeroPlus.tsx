@@ -1,14 +1,17 @@
 export default function HeroPlus() {
   return (
     <div
-      className="mx-auto flex flex-col max-w-5xl relative rounded-sm h-[60vh] mb-16"
-      style={{
-        backgroundImage: 'url("/images/bkg2.png")', // You'll want to update this image
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
+      className="mx-auto flex flex-col max-w-5xl relative rounded-sm h-[60vh] mb-16 overflow-hidden group"
     >
+      <div 
+        className="absolute inset-0 transition-transform duration-[2000ms] ease-in-out group-hover:scale-110"
+        style={{
+          backgroundImage: 'url("/images/bkg2.png")', // You'll want to update this image
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      />
       {/* Gradient overlay from transparent to dark */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
       
