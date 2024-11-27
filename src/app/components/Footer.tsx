@@ -39,6 +39,7 @@ export default function Footer() {
         <div className="border-t border-gray-800">
           <div className="flex flex-col items-center py-4 space-y-3">
             <div className="flex flex-wrap justify-center gap-4 px-4">
+              <Link href="/careers" className="text-xs text-gray-400 hover:text-gray-300">Careers</Link>
               <Link href="/privacy-policy" className="text-xs text-gray-400 hover:text-gray-300">Privacy Policy</Link>
               <Link href="/terms-of-use" className="text-xs text-gray-400 hover:text-gray-300">Terms of Use</Link>
               <Link href="/contact" className="text-xs text-gray-400 hover:text-gray-300">Contact</Link>

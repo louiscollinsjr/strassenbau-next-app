@@ -19,6 +19,7 @@ export default function Navigation() {
             {/* <Link href="/experience" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Experience</Link> */}
             <Link href="/portfolio" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Portfolio</Link>
             <Link href="/sustainability" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Sustainability</Link>
+            <Link href="/careers" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Careers</Link>
             <Link href="/contact" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Contact</Link>
             {/* <ThemeToggle /> */}
           </div>
@@ -55,6 +56,7 @@ export default function Navigation() {
               {/* <Link href="/experience" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Experience</Link> */}
               <Link href="/portfolio" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Portfolio</Link>
               <Link href="/sustainability" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Sustainability</Link>
+              <Link href="/careers" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Careers</Link>
               <Link href="/contact" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Contact</Link>
             </div>
           </div>
