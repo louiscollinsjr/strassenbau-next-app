@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-
 export default function Hero() {
   return (
     <div
@@ -9,7 +7,7 @@ export default function Hero() {
     >
       <div className=' bg-gray-200/30 dark:bg-white/5 pt-24 px-8 rounded-lg min-h-[50vh]'>
       <div className="flex justify-left mb-1 pl-1">
-        {/* <Image
+        {/* 
           src="/images/logo_bridge.svg"
           alt="Bridge Logo"
           width={100}

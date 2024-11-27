@@ -2,7 +2,7 @@ export default function DownloadProfile() {
     return (
         <div className="mx-auto py-12">
             <a
-                href="/Company Profile STRASSEN UND BRÜCKENBAU SRL.pdf"
+                href="/Company Profile STRASSEN UND BRUECKENBAU SRL.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 bg-black dark:bg-white/10 hover:bg-gray-200/60 text-white dark:text-white rounded-lg transition-all duration-300"

@@ -31,7 +31,7 @@ const clientsList: CompanyClients[] = [
 
 export default function Clients() {
     return (
-        <section className="mx-auto px-6 pt-24" style={{ maxWidth: '980px' }}>
+        <section className="mx-auto pt-24" style={{ maxWidth: '980px' }}>
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-12">Our Clients</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 {clientsList.map((company, index) => (

@@ -1,6 +1,6 @@
 export default function CompanyInfo() {
     return (
-        <div className=" mt-12">
+        <div className=" max-w-5xl mx-auto px-[22px]">
             {/* Specializations Column */}
             <div className="space-y-6">
                 <h2 className="text-2xl font-semibold  text-gray-900 dark:text-white pt-20 pb-8">Our Specializations</h2>
