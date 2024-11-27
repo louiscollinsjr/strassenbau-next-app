@@ -51,7 +51,7 @@ export default function CompanySpecializations() {
         <div className="max-w-5xl mx-auto px-[22px]">
             <div className="space-y-6">
                 <h2 className="text-2xl font-semibold text-gray-900 dark:text-white pt-20 pb-8">
-                Engineering, Archtecture, and Consulting Services
+                Engineering, Architecture, and Construction
                 </h2>
                 <ul className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4">
                     {specializations.map((specialization, index) => (
