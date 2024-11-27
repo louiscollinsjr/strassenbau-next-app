@@ -45,7 +45,7 @@ export default function CollegeProjects() {
     };
 
     return (
-        <section className="max-w-5xl mx-auto px-8 py-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-8 py-16">
             <div className="mb-24">
                 <p className="text-sm font-semibold tracking-wider text-gray-900 dark:text-white uppercase mb-3">Educational Infrastructure</p>
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Military College Development</h2>
@@ -53,7 +53,7 @@ export default function CollegeProjects() {
             </div>
 
             {projects.map((project) => (
-                <div key={project.id} className="grid grid-cols-[1fr_1.2fr] gap-8 mb-16">
+                <div key={project.id} className="grid grid-cols-1 md:grid-cols-[1fr_1.2fr] gap-8 mb-16">
                     <div className="grid gap-8">
                         {/* Image Row */}
                         <div className="rounded-sm overflow-hidden bg-gray-200 dark:bg-white/5">
@@ -91,8 +91,8 @@ export default function CollegeProjects() {
                     </div>
 
                     {/* Details Column (spans both rows) */}
-                    <div className="row-span-2 p-8 bg-gray-200/30 dark:bg-white/5 rounded-lg text-gray-900 dark:text-white  leading-relaxed text-sm">
-                       <h1 className='font-bold pr-24 text-3xl text-gray-900 dark:text-white pb-10'>{project.detailsTitle}</h1> 
+                    <div className="row-span-2 p-4 sm:p-8 bg-gray-200/30 dark:bg-white/5 rounded-lg text-gray-900 dark:text-white leading-relaxed text-sm">
+                       <h1 className='font-bold text-3xl text-gray-900 dark:text-white pb-10'>{project.detailsTitle}</h1> 
                         {project.details}
                         
                         <div className="mt-8 mb-8">

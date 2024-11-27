@@ -24,7 +24,7 @@ export default function Navigation() {
           </div>
 
           {/* Mobile Navigation Button */}
-          <div className=" md:hidden flex items-center space-x-4">
+          {/* <div className=" md:hidden flex items-center space-x-4">
             <ThemeToggle />
             <button 
               className="p-2"
@@ -46,11 +46,11 @@ export default function Navigation() {
                 <path d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu */}
-          <div id="mobile-menu" className="hidden absolute top-full left-0 right-0 bg-white dark:bg-[rgb(29,30,32)] shadow-lg rounded-b-lg border-t border-gray-200/10 dark:border-white/10">
-            <div className="flex flex-col p-4 space-y-3">
+          <div id="mobile-menu" className="hidden fixed inset-0 top-[60px] bg-white dark:bg-[rgb(29,30,32)] h-screen">
+            <div className="flex flex-col p-8 space-y-6 text-lg">
               <Link href="/company" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Company</Link>
               <Link href="/services" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Services</Link>
               {/* <Link href="/experience" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Experience</Link> */}
