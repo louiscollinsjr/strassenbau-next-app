@@ -20,7 +20,7 @@ export default function Hero() {
         Strassen und Bruekenbau
       </h1>
       <p className="text-3xl md:text-xl lg:text-6xl font-bold text-gray-900 dark:text-white">
-        Building Communities, <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-green-500 to-blue-500 text-black">Transforming Lives.</span>
+        Building Communities, <span className=" text-black">Transforming Lives.</span>
       </p>
     </div>
 
