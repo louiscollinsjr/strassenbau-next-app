@@ -16,23 +16,23 @@ export default function ContactPage() {
                             <div className="space-y-4">
                                 <div>
                                     <h3 className="font-medium text-gray-900 dark:text-white">Address</h3>
-                                    <p className="font-medium text-gray-900 dark:text-white">Hauptstraße 123<br />11111 Timisoara, Romania</p>
+                                    <p className="font-medium text-gray-900 dark:text-white">Timisoara, Bvd. Dr. Victor Babes, nr. 10/a<br />Romania</p>
                                 </div>
                                 
-                                <div>
+                                {/* <div>
                                     <h3 className="font-medium text-gray-900 dark:text-white">Phone</h3>
                                     <p className="font-medium text-gray-900 dark:text-white">+49 (0) 30 1234567</p>
-                                </div>
+                                </div> */}
                                 
                                 <div>
                                     <h3 className="font-medium text-gray-900 dark:text-white">Email</h3>
                                     <p className="font-medium text-gray-900 dark:text-white">info@strassenbau.com.ro</p>
                                 </div>
                                 
-                                <div>
+                                {/* <div>
                                     <h3 className="font-medium text-gray-900 dark:text-white">Business Hours</h3>
                                     <p className="font-medium text-gray-900 dark:text-white">Monday - Friday: 8:00 - 17:00</p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

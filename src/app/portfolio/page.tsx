@@ -100,7 +100,7 @@ export default function PortfolioPage() {
             year:"2025-2026"
         },
         {
-            title: "M. Viteazul Military School",
+            title: "T. Viteazul Military School",
             description: "",
             image: "/images/bragadiru1.jpg",
             category: "Residential Project",
@@ -163,7 +163,10 @@ export default function PortfolioPage() {
         <PortfolioHero />
         <PortfolioWelcome />
 
-
+        <div
+        className="mx-auto border-b-4 border-gray-200"
+        style={{ maxWidth: "980px" }}
+      ></div>
              {/* Projects Grid  List */}
 
              <div className="mx-auto px-4 py-16">
@@ -185,6 +188,13 @@ export default function PortfolioPage() {
                 </div>
             </div>
 
+
+            <div
+        className="mx-auto border-b-4 border-gray-200"
+        style={{ maxWidth: "980px" }}
+      ></div>
+            
+
              {/* Projects Grid  List */}
              <div className="mx-auto px-4 py-16">
                 <div className="mx-auto max-w-[980px]">
@@ -194,7 +204,7 @@ export default function PortfolioPage() {
                                 <div className="relative">
                                 </div>
                                 <div className="p-2">
-                                   <div className="inline-block px-2 py-1 text-xs uppercase bg-gray-200/30dark:bg-white/10  text-gray-900 dark:text-white  rounded-md mb-3">{project.status}</div>
+                                   <div className="inline-block px-2 py-1 text-xs uppercase bg-gray-200/30 dark:bg-white/10  text-gray-900 dark:text-white  rounded-md mb-3">{project.status}</div>
                                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-0">{project.title} </h3>
                                     <p className="text-gray-900 dark:text-white/70 text-xs mb-2">{project.year}  {project.location}  {project.country}</p>
                                     <p className="text-gray-900 dark:text-white/70 text-xs">{project.description}</p>
@@ -207,10 +217,12 @@ export default function PortfolioPage() {
 
             
             <ThermalRehabProjects />
+
             <div
         className="mx-auto border-b-4 border-gray-200"
         style={{ maxWidth: "980px" }}
       ></div>
+            
       <CollegeProjects />
       <div
         className="mx-auto border-b-4 border-gray-200"
