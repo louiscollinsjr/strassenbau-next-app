@@ -41,7 +41,7 @@ const partnerGroups: PartnerGroup[] = [
             },
             {
                 name: "Global Worker",
-                description: "Enables access to a diverse talent pool and streamlines recruitment of skilled workers across the EU, ensuring compliance and enhancing operational efficiency.",
+                description: "Provides access to a diverse talent pool and streamlines EU recruitment, ensuring compliance.",
                 website: "https://globalworker.ro/"
             },
 
