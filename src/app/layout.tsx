@@ -35,9 +35,7 @@ export default function RootLayout({
         >
           <div className="min-h-screen bg-white dark:bg-[rgb(29,30,32)] text-gray-900 dark:text-white transition-colors">
             <Navigation />
-            <main className="">
-              {children}
-            </main>
+            {children}
             <Footer />
           </div>
         </ThemeProvider>

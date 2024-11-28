@@ -52,8 +52,8 @@ export default function JoinUs() {
               className="inline-flex items-center px-6 py-3 bg-white hover:bg-blue-600 text-black font-medium rounded-lg transition-colors duration-200 w-full md:w-fit"
             >
               View Open Positions
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="ml-2 w-4 h-4">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-2 w-4 h-4">
+              <path strokeLineCap="round" strokeLineJoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
 
             </Link>
