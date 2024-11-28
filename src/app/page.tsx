@@ -1,24 +1,30 @@
-import CollegeProjects from "./components/CollegeProjects";
-// import Image from 'next/image';
+
 import Welcome from "./components/Welcome";
-// import Hero from "./components/Hero";
+
 import HeroPlus from "./components/HeroPlus";
 import JoinUs from "./components/JoinUs";
 import ThermalRehabProjects from "./components/ThermalRehabProjects";
+import PartnersDetails from "./components/PartnersDetails";
+import Line from "./components/Line";
+import ButtonLink from "./components/ButtonLink";
+
 
 export default function Home() {
   return (
     <main className="pt-32">
       <HeroPlus />
-      {/* <Hero /> */}
-      <Welcome />
       
+      <Welcome />
+      <Line />
       <ThermalRehabProjects />
-      <div
-        className="mx-auto border-b-4 border-gray-200"
-        style={{ maxWidth: "980px" }}
-      ></div>
-      <CollegeProjects />
+      <div className="mx-auto max-w-5xl px-[22px]">
+          <ButtonLink href="/portfolio" className="bg-black hover:bg-gray-800/60">
+              See More of Our Projects
+          </ButtonLink>
+      </div>
+
+      <Line />
+      <PartnersDetails />
       <JoinUs />
     </main>
   );
