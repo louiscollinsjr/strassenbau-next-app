@@ -91,6 +91,8 @@ const partnerGroups: PartnerGroup[] = [
     }
 ];
 
+
+
 export default function PartnersDetails() {
     return (
         <section className="mx-auto max-w-5xl px-4  md:py-8">
