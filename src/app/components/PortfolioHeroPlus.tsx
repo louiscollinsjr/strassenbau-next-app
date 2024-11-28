@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import CustomHero from './CustomHero';
 
 const images = [
@@ -11,8 +10,8 @@ const images = [
 export default function PortfolioHeroPlus() {
   return (
     <CustomHero
-      overline="Our Company"
-      title={<>Excellence in Engineering, Commitment to Quality.</>}
+      overline="Our Portfolio"
+      title={<>Your vision from concept to completion</>}
       images={images}
       accentColor="blue"
     />

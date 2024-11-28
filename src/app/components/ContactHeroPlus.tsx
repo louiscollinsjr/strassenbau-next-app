@@ -4,7 +4,7 @@ export default function ContactHeroPlus() {
   return (
     <CustomHero
       overline="Contact"
-      title={<>Let's Build Something Together</>}
+      title={<>Let&apos;s Build Something Together</>}
       images={['/images/AdobeStock_977124526.jpeg']}
       accentColor="blue"
     />
