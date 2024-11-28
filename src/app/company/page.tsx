@@ -9,7 +9,7 @@ import CompanyPartners from "../components/CompanyPartners";
 
 export default function CompanyPage() {
     return (
-        <main className="md:pt-32">
+        <main className="pt-0 md:pt-32">
             <CompanyHeroPlus />
             <CompanyWelcome />
             <CompanySpecializations />
