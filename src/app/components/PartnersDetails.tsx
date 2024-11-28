@@ -38,7 +38,13 @@ const partnerGroups: PartnerGroup[] = [
                 name: "Actias Luna",
                 description: "Provides strategic advisory services that enhance our development initiatives through expert guidance and capacity building.",
                 website: "https://actiasluna.eu/"
-            }
+            },
+            {
+                name: "Global Worker",
+                description: "Enables access to a diverse talent pool and streamlines recruitment of skilled workers across the EU, ensuring compliance and enhancing operational efficiency.",
+                website: "https://globalworker.ro/"
+            },
+
         ]
     },
     {
@@ -75,6 +81,11 @@ const partnerGroups: PartnerGroup[] = [
                 name: "Oravița City Hall",
                 description: "Collaborating on initiatives aimed at improving local infrastructure and community welfare.",
                 website: "https://www.primariaoravita.ro/"
+            },
+            {
+                name: "Caransebeș City Hall",
+                description: "Partners with us to support local development initiatives and enhance community services that meet residents’ needs and promote sustainable growth.",
+                website: "https://www.primariaoravita.ro/"
             }
         ]
     }
@@ -102,7 +113,7 @@ export default function PartnersDetails() {
                         <p className="text-gray-600 dark:text-gray-300 mb-8 text-sm">
                             {group.description}
                         </p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pr-4">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8 pr-4">
                             {group.partners.map((partner, partnerIndex) => (
                                 <Link 
                                     href={partner.website}
@@ -111,7 +122,7 @@ export default function PartnersDetails() {
                                     className="group"
                                 >
                                     <div className="">
-                                        <div className="flex items-center gap-2 mb-3">
+                                        <div className="flex items-center gap-2 mb-1">
                                             <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
                                                 {partner.name}
                                             </h4>
