@@ -46,10 +46,10 @@ export default function JoinUs() {
             Be part of something extraordinary. We&apos;re always looking for talented individuals who share our passion for innovation and excellence in construction and engineering.
           </p>
           
-          <div className="flex flex-wrap gap-6">
+          <div className="flex flex-wrap gap-4">
             <Link 
               href="/careers"
-              className="inline-flex items-center px-6 py-3 bg-white hover:bg-blue-600 text-black font-medium rounded-lg transition-colors duration-200"
+              className="inline-flex items-center px-6 py-3 bg-white hover:bg-blue-600 text-black font-medium rounded-lg transition-colors duration-200 w-full md:w-fit"
             >
               View Open Positions
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="ml-2 w-4 h-4">

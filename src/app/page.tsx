@@ -11,9 +11,8 @@ import ButtonLink from "./components/ButtonLink";
 
 export default function Home() {
   return (
-    <main className="pt-32">
+    <main className="pt-0 md:pt-32">
       <HeroPlus />
-      
       <Welcome />
       <Line />
       <ThermalRehabProjects />

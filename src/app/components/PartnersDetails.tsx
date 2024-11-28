@@ -99,7 +99,7 @@ export default function PartnersDetails() {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
                     Our Partners
                 </h2>
-                <p className="text-base text-gray-600 dark:text-gray-300 max-w-3xl">
+                <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 max-w-3xl">
                     We are proud to collaborate with a diverse range of organizations that share our commitment to fostering sustainable development across various sectors. Explore our key partnerships below:
                 </p>
             </div>
@@ -110,7 +110,7 @@ export default function PartnersDetails() {
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                             {group.title}
                         </h3>
-                        <p className="text-gray-600 dark:text-gray-300 mb-8 text-sm">
+                        <p className="text-gray-600 dark:text-gray-300 mb-10 text-sm md:text-base">
                             {group.description}
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8 pr-4">
