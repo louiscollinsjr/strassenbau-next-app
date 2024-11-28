@@ -93,7 +93,7 @@ const partnerGroups: PartnerGroup[] = [
 
 export default function PartnersDetails() {
     return (
-        <section className="mx-auto max-w-5xl px-4  py-16">
+        <section className="mx-auto max-w-5xl px-4  md:py-8">
             <div className=' bg-gray-200/30 dark:bg-white/5 rounded-lg px-4 sm:px-10 py-16'>
             <div className="text-left mb-16">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
