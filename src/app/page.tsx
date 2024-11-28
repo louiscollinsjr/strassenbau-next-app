@@ -6,6 +6,7 @@ import ThermalRehabProjects from "./components/ThermalRehabProjects";
 import PartnersDetails from "./components/PartnersDetails";
 import Line from "./components/Line";
 import ButtonLink from "./components/ButtonLink";
+import JoinUs from "./components/JoinUs";
 
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
 
       <Line />
       <PartnersDetails />
-      
+      <JoinUs />
     </main>
   );
 }
