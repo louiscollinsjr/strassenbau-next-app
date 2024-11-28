@@ -5,7 +5,7 @@ import ServiceHeroPlus from '../components/ServiceHeroPlus';
 
 export default function ServicesPage() {
     return (
-        <main className="pt-32">
+        <main className="pt-0 md:pt-32">
             <ServiceHeroPlus />
             <ServicesWelcome />
             <CompanySpecializations />

@@ -4,7 +4,7 @@ import SustainabilityHero from '../components/SustainabilityHero';
 export default function SustainabilityPage() {
     return (
         <main>
-            <div className="mx-auto pt-32" style={{ maxWidth: '980px' }}></div>
+            <div className="pt-0 md:pt-32"></div>
             <SustainabilityHero />
             <Sustainability />
         </main>

@@ -1,6 +1,9 @@
+import ContactHeroPlus from "../components/ContactHeroPlus";
+
 export default function ContactPage() {
     return (
-        <main className="pt-32">
+        <main className="md:pt-32">
+            <ContactHeroPlus />
             <div className="mx-auto px-4 max-w-4xl">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8">Contact Us</h1>
                 
