@@ -2,7 +2,6 @@
 import Welcome from "./components/Welcome";
 
 import HeroPlus from "./components/HeroPlus";
-import JoinUs from "./components/JoinUs";
 import ThermalRehabProjects from "./components/ThermalRehabProjects";
 import PartnersDetails from "./components/PartnersDetails";
 import Line from "./components/Line";
@@ -24,7 +23,7 @@ export default function Home() {
 
       <Line />
       <PartnersDetails />
-      <JoinUs />
+      
     </main>
   );
 }

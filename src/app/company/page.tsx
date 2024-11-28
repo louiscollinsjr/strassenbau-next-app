@@ -4,7 +4,7 @@ import Clients from "../components/Clients";
 import CompanySpecializations from "../components/CompanySpecializations";
 import CompanyWelcome from "../components/CompanyWelcome";
 import CompanyHeroPlus from "../components/CompanyHeroPlus";
-import JoinUs from "../components/JoinUs";
+
 import CompanyPartners from "../components/CompanyPartners";
 
 export default function CompanyPage() {
@@ -15,7 +15,7 @@ export default function CompanyPage() {
             <CompanySpecializations />
             <Clients />
             <CompanyPartners />
-            <JoinUs />
+           
         </main>
     );
 }
