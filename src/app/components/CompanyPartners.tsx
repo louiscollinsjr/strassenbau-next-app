@@ -20,7 +20,7 @@ const partners: Partner[] = [
         category: "City Hall",
     },
     {
-        name: "Acticas Luna, SRL",
+        name: "ACTIAS LUNA, SRL",
         website: "https://www.actiasluna.eu/",
         category: "Construction Company",
     },

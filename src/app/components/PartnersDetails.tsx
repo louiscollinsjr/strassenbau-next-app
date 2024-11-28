@@ -35,8 +35,8 @@ const partnerGroups: PartnerGroup[] = [
                 website: "https://koridorisrbije.rs/en/home-page"
             },
             {
-                name: "Actias Luna",
-                description: "Provides strategic advisory services that enhance our development initiatives through expert guidance and capacity building.",
+                name: "ACTIAS LUNA",
+                description: "Offers strategic advisory services to enhance development initiatives through expert guidance, capacity building, and global business expansion.",
                 website: "https://actiasluna.eu/"
             },
             {
