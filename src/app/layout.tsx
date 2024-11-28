@@ -14,6 +14,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Strassen und Bruekenbau",
   description: "Building Connections, Strengthening Communities",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
